@@ -36,81 +36,81 @@
   letter-spacing: -1px;
 }
 
-.container .ikon ul {
-  justify-content: center;
-align-items: center;
+.ikon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
 }
 
+.ikon .circle {
+  display: flex;
+  align-items: center;
+  width: 48px;
+height: 48px;
+border-radius: 50px;
+border: 2px solid #3a3c56;
+margin-right: 16px;
 
-.box {
+}
+.ikon2{
+
+  display: flex;
+  
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  margin-bottom: 25px;
+  margin-right: 36px;
+  width: 270px;
+height: 272px;
+border-radius: 6px;
+border: 1px solid #3A3C56;
+}
+
+.container ul {
   margin-top: 64px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
 }
 
-.box1 {
-  width: 270px;
-  height: 272px;
-  border-radius: 6px;
-  border: 1px solid #3a3c56;
+.container ul li {
+  list-style: none;
 }
 
-.box1 img {
+li:nth-child(1) img {
   width: 196px;
-  height: 247px;
-  padding: 24px 37px 1px 37px;
+height: 247px;
 }
 
-.box2 {
-  width: 270px;
-  height: 272px;
-  border-radius: 6px;
-  border: 1px solid #3a3c56;
-}
-
-.box2 img {
-  padding: 39px;
+li:nth-child(2) img {
   width: 259px;
-  height: 232px;
+height: 232px;
 }
 
-.box3 {
-  width: 270px;
-  height: 272px;
-  border-radius: 6px;
-  border: 1px solid #3a3c56;
-}
-
-.box3 img {
+li:nth-child(3) img {
   width: 205px;
-  height: 238px;
-  padding: 32px;
-}
-.box4 {
-  width: 270px;
-  height: 272px;
-  border-radius: 6px;
-  border: 1px solid #3a3c56;
+height: 238px;
 }
 
-.box4 img {
-  padding: 38px;
+li:nth-child(4) img {
   width: 230px;
   height: 233px;
 }
 
-.container ul {
-    margin-top: 26px;
-    list-style: none;
-    display: flex;
-   justify-content: space-between;
-    align-items: center;
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
 
 .container ul li b {
-    color: var(--Text_Light, #FFF);
+  color: var(--Text_Light, #FFF);
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Epilogue;
 font-size: 24px;
@@ -120,7 +120,7 @@ line-height: 32px;
 }
 
 .container ul li p {
-    color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+  color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Epilogue;
 font-size: 16px;
