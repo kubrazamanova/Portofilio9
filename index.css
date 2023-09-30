@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 140px 135px 52px 135px;
+  min-height: 100vh;
+  background-color: #28293e;
+}
+
+.container h1 {
+  color: var(--Text_Light_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.container h2 {
+  margin-top: 20px;
+  width: 531px;
+  color: var(--Text_Light, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+.container .ikon ul {
+  justify-content: center;
+align-items: center;
+}
+
+
+.box {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box1 {
+  width: 270px;
+  height: 272px;
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+}
+
+.box1 img {
+  width: 196px;
+  height: 247px;
+  padding: 24px 37px 1px 37px;
+}
+
+.box2 {
+  width: 270px;
+  height: 272px;
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+}
+
+.box2 img {
+  padding: 39px;
+  width: 259px;
+  height: 232px;
+}
+
+.box3 {
+  width: 270px;
+  height: 272px;
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+}
+
+.box3 img {
+  width: 205px;
+  height: 238px;
+  padding: 32px;
+}
+.box4 {
+  width: 270px;
+  height: 272px;
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+}
+
+.box4 img {
+  padding: 38px;
+  width: 230px;
+  height: 233px;
+}
+
+.container ul {
+    margin-top: 26px;
+    list-style: none;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+
+.container ul li b {
+    color: var(--Text_Light, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+}
+
+.container ul li p {
+    color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+
